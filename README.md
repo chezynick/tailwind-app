@@ -1,3 +1,5 @@
+This page was created as a way to utilise and practice using Tailwind CSS- the project was from the Odin course and was supposed to be created with Bootstrap.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
