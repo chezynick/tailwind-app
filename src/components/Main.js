@@ -21,6 +21,50 @@ const Main = () => {
 			headline: 'Lorem ipsum dolor sit amet. Cupiditate, consectetur.',
 		},
 	];
+	const featureArr = [
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+		{
+			image:
+				'https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+			headline:
+				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, illum culpa dolorem nostrum fugit ducimus!',
+		},
+	];
 	return (
 		<div className="p-4 ">
 			<h6 className="text-gray-400 font-bold pb-3 uppercase">top story</h6>
@@ -63,6 +107,23 @@ const Main = () => {
 						</div>
 					))}
 				</div>
+			</div>
+			<h6 className="text-gray-400 font-bold pb-3 uppercase">more stories</h6>
+			<div>
+				{featureArr.map((item) => (
+					<div className="flex justify-between items-center py-5">
+						<div>
+							<img className=" w-20 h-20 mr-14 " src={item.image} alt="journalist" />
+						</div>
+						<div>
+							<h6 className="text-black font-bold ">{item.headline}</h6>
+							<p className="text-sm text-gray-400">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto doloribus accusantium
+								consequatur est aut illo!
+							</p>
+						</div>
+					</div>
+				))}
 			</div>
 		</div>
 	);

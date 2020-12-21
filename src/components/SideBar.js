@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Insight from './Insight';
 const SideBar = () => {
 	const newsArr = [
 		{
@@ -79,7 +80,7 @@ const SideBar = () => {
 			<h6 className="text-gray-400 font-bold pb-3 uppercase mt-5">opinion</h6>
 			<div className="divide-y-2 ">
 				{newsArr.map((item) => (
-					<div className="flex justify-between items-center py-3">
+					<div className="flex justify-between items-center py-5">
 						<div>
 							<img className="rounded-full h-14 w-14 mr-14 " src={item.image} alt="journalist" />
 						</div>
@@ -90,6 +91,7 @@ const SideBar = () => {
 					</div>
 				))}
 			</div>
+			<Insight />
 		</div>
 	);
 };
