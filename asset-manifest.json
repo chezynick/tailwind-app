@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tailwind-app/static/css/main.c2cfa9ee.chunk.css",
-    "main.js": "/tailwind-app/static/js/main.09af3c4c.chunk.js",
-    "main.js.map": "/tailwind-app/static/js/main.09af3c4c.chunk.js.map",
+    "main.css": "/tailwind-app/static/css/main.36e0cd9d.chunk.css",
+    "main.js": "/tailwind-app/static/js/main.b2180dcd.chunk.js",
+    "main.js.map": "/tailwind-app/static/js/main.b2180dcd.chunk.js.map",
     "runtime-main.js": "/tailwind-app/static/js/runtime-main.e2d37308.js",
     "runtime-main.js.map": "/tailwind-app/static/js/runtime-main.e2d37308.js.map",
     "static/js/2.4ea28caf.chunk.js": "/tailwind-app/static/js/2.4ea28caf.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8e9f6467.chunk.js": "/tailwind-app/static/js/3.8e9f6467.chunk.js",
     "static/js/3.8e9f6467.chunk.js.map": "/tailwind-app/static/js/3.8e9f6467.chunk.js.map",
     "index.html": "/tailwind-app/index.html",
-    "static/css/main.c2cfa9ee.chunk.css.map": "/tailwind-app/static/css/main.c2cfa9ee.chunk.css.map",
+    "static/css/main.36e0cd9d.chunk.css.map": "/tailwind-app/static/css/main.36e0cd9d.chunk.css.map",
     "static/js/2.4ea28caf.chunk.js.LICENSE.txt": "/tailwind-app/static/js/2.4ea28caf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e2d37308.js",
     "static/js/2.4ea28caf.chunk.js",
-    "static/css/main.c2cfa9ee.chunk.css",
-    "static/js/main.09af3c4c.chunk.js"
+    "static/css/main.36e0cd9d.chunk.css",
+    "static/js/main.b2180dcd.chunk.js"
   ]
 }
